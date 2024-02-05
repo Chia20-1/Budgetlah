@@ -1,0 +1,8 @@
+.profile-image {
+    width: 150px;
+    /* or any other size */
+    height: 150px;
+    /* should be the same as width to maintain aspect ratio */
+    border-radius: 50%;
+    object-fit: cover;
+}

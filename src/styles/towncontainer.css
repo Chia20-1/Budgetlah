@@ -1,0 +1,7 @@
+#town-container {
+    width: 100%;
+    height: 100vh;
+    /* Adjust as needed */
+    position: relative;
+    /* Adjust based on your layout */
+}

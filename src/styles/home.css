@@ -1,0 +1,42 @@
+.hero-section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-content {
+    text-align: left;
+    padding: 20px;
+    /* Adjust padding as needed */
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: #333;
+    /* Text color for the h1 element */
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    color: #666;
+    /* Text color for the p element */
+    margin-bottom: 30px;
+}
+
+/* Custom styles for the span element inside p if needed */
+.hero-content span {
+    font-weight: bold;
+    /* Add any other custom styles */
+}
+
+.carousel-image {
+    height: 80vh;
+    object-fit: cover;
+    max-width: 100%;
+    filter: brightness(0.3);
+}
