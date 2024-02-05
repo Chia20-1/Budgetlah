@@ -13,7 +13,7 @@ export default function NavigationBar() {
   return (
     <Navbar bg="light" expand="lg" className="px-3">
       <LinkContainer to="/">
-        <Navbar.Brand className="ml-2">Budget-App</Navbar.Brand>
+        <Navbar.Brand className="ml-2">BudgetLah</Navbar.Brand>
       </LinkContainer>
 
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
