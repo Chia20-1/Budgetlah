@@ -32,19 +32,19 @@ export default function Footer() {
           <Col lg={4} className="ps-lg-4">
             <h4 className="pb-2">Quick Links</h4>
             <Nav defaultActiveKey="/home" className="flex-column">
-              <LinkContainer to="/">
+              <LinkContainer to="/Budgetlah">
                 <Nav.Link>Home</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/login">
+              <LinkContainer to="/Budgetlah/login">
                 <Nav.Link>Login</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/budgeting">
+              <LinkContainer to="/Budgetlah/budgeting">
                 <Nav.Link>Budgeting</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/learning">
+              <LinkContainer to="/Budgetlah/learning">
                 <Nav.Link>Social Learning</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/ask-finny">
+              <LinkContainer to="/Budgetlah/ask-finny">
                 <Nav.Link>Ask Finny</Nav.Link>
               </LinkContainer>
             </Nav>

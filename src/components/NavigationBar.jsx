@@ -12,41 +12,41 @@ export default function NavigationBar() {
 
   return (
     <Navbar bg="light" expand="lg" className="px-3">
-      <LinkContainer to="/">
+      <LinkContainer to="/Budgetlah">
         <Navbar.Brand className="ml-2">BudgetLah</Navbar.Brand>
       </LinkContainer>
 
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto me-3">
-          <LinkContainer to="/">
+          <LinkContainer to="/Budgetlah">
             <Nav.Link>Home</Nav.Link>
           </LinkContainer>
           {!token ? (
-            <LinkContainer to="/login">
+            <LinkContainer to="/Budgetlah/login">
               <Nav.Link>Login</Nav.Link>
             </LinkContainer>
           ) : (
             <LogoutComponent />
           )}
           {token && (
-            <LinkContainer to="/budgeting">
+            <LinkContainer to="/Budgetlah/budgeting">
               <Nav.Link>Budgeting</Nav.Link>
             </LinkContainer>
           )}
           {token && (
             <>
               <NavDropdown title="The Lah Hub" id="features-dropdown">
-                <LinkContainer to="/profile">
+                <LinkContainer to="/Budgetlah/profile">
                   <NavDropdown.Item>Profile</NavDropdown.Item>
                 </LinkContainer>
-                <LinkContainer to="/town">
+                <LinkContainer to="/Budgetlah/town">
                   <NavDropdown.Item>Town</NavDropdown.Item>
                 </LinkContainer>
-                <LinkContainer to="/shop">
+                <LinkContainer to="/Budgetlah/shop">
                   <NavDropdown.Item>Shop</NavDropdown.Item>
                 </LinkContainer>
-                <LinkContainer to="/forum">
+                <LinkContainer to="/Budgetlah/forum">
                   <NavDropdown.Item>Forum</NavDropdown.Item>
                 </LinkContainer>
               </NavDropdown>

@@ -21,9 +21,9 @@ export default function App() {
         <ThemeProvider>
           <NavigationBar />
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<Signup />} />
+            <Route path="/Budgetlah" element={<Home />} />
+            <Route path="/Budgetlah/login" element={<Login />} />
+            <Route path="/Budgetlah/signup" element={<Signup />} />
             <Route
               path="/budgeting"
               element={
@@ -33,7 +33,7 @@ export default function App() {
               }
             />
             <Route
-              path="/profile"
+              path="/Budgetlah/profile"
               element={
                 <RequireAuth>
                   <Profile />
@@ -41,7 +41,7 @@ export default function App() {
               }
             />
             <Route
-              path="/town"
+              path="/Budgetlah/town"
               element={
                 <RequireAuth>
                   <Town />
@@ -49,7 +49,7 @@ export default function App() {
               }
             />
             <Route
-              path="/shop"
+              path="/Budgetlah/shop"
               element={
                 <RequireAuth>
                   <Shop />
@@ -57,7 +57,7 @@ export default function App() {
               }
             />
             <Route
-              path="/forum"
+              path="/Budgetlah/forum"
               element={
                 <RequireAuth>
                   <Forum />
