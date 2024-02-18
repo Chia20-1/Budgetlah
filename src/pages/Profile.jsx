@@ -25,7 +25,7 @@ const Profile = () => {
           <Row className="align-items-center">
             <Col xs={12} className="text-center mb-4">
               <Image
-                src="../assets/profile-image.webp"
+                src="/assets/profile-image.jpeg"
                 roundedCircle
                 fluid
                 className="profile-image"

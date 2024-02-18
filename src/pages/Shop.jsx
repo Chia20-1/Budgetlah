@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
 
 export default function Shop() {
-  const shopImage = "/assets/shop-image.webp";
+  const shopImage = "/assets/shop-image.jpeg";
 
   return (
     <Container
