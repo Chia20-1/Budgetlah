@@ -1,8 +1,7 @@
 import { Container } from "react-bootstrap";
+import shopImage from "/assets/shop.png";
 
 export default function Shop() {
-  const shopImage = "/assets/shop-image.jpeg";
-
   return (
     <Container
       className="d-flex justify-content-center align-items-center"

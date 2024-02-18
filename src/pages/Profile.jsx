@@ -2,6 +2,7 @@ import { Container, Row, Col, Image, Card } from "react-bootstrap";
 import { ThemeContext, ThemeProvider } from "../styles/ThemeContext";
 import { useContext } from "react";
 import "../styles/profile.css";
+import profilePhoto from "/assets/profile.png";
 
 const Profile = () => {
   const username = "Irfan Hakimi";
@@ -25,7 +26,7 @@ const Profile = () => {
           <Row className="align-items-center">
             <Col xs={12} className="text-center mb-4">
               <Image
-                src="/assets/profile-image.jpeg"
+                src={profilePhoto}
                 roundedCircle
                 fluid
                 className="profile-image"
